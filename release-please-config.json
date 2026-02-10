@@ -1,0 +1,36 @@
+{
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": true,
+  "separate-pull-requests": true,
+  "changelog-sections": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "perf", "section": "Performance Improvements" },
+    { "type": "refactor", "section": "Code Refactoring" },
+    { "type": "docs", "section": "Documentation" },
+    { "type": "deps", "section": "Dependencies" }
+  ],
+  "packages": {
+    "packages/api-server": {
+      "release-type": "node",
+      "component": "api-server",
+      "changelog-path": "CHANGELOG.md"
+    },
+    "packages/web-client": {
+      "release-type": "node",
+      "component": "web-client",
+      "changelog-path": "CHANGELOG.md"
+    },
+    "packages/core-lib": {
+      "release-type": "dotnet-yoshi",
+      "component": "core-lib",
+      "changelog-path": "CHANGELOG.md"
+    },
+    "packages/data-processor": {
+      "release-type": "python",
+      "component": "data-processor",
+      "package-name": "data-processor",
+      "changelog-path": "CHANGELOG.md"
+    }
+  }
+}

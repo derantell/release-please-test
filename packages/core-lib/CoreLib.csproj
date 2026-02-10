@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>0.1.0</Version>
+    <PackageId>Monorepo.CoreLib</PackageId>
+    <Description>Shared core library</Description>
+  </PropertyGroup>
+
+</Project>

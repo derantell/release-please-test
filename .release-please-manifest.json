@@ -1,0 +1,6 @@
+{
+  "packages/api-server": "0.1.0",
+  "packages/web-client": "0.1.0",
+  "packages/core-lib": "0.1.0",
+  "packages/data-processor": "0.1.0"
+}

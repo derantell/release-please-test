@@ -1,0 +1,9 @@
+[project]
+name = "data-processor"
+version = "0.1.0"
+description = "Data processing pipeline"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
