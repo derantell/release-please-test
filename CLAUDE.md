@@ -8,7 +8,7 @@ This is a monorepo with 4 independently versioned packages, used to test release
 packages/
   api-server/      Node.js Express API      (release-type: node)
   web-client/      Node.js frontend client   (release-type: node)
-  core-lib/        C#/.NET class library     (release-type: dotnet-yoshi)
+  core-lib/        C#/.NET class library     (release-type: simple + extra-files)
   data-processor/  Python data pipeline      (release-type: python)
 ```
 
@@ -53,7 +53,7 @@ Each release type knows which files contain version numbers:
 
 - **node**: `package.json`
 - **python**: `pyproject.toml`, `__init__.py` (`__version__`)
-- **dotnet-yoshi**: `.csproj` (`<Version>`)
+- **simple** (core-lib): `version.txt` + `.csproj` `<Version>` via extra-files xpath
 
 ## Commands
 

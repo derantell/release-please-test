@@ -22,9 +22,16 @@
       "changelog-path": "CHANGELOG.md"
     },
     "packages/core-lib": {
-      "release-type": "dotnet-yoshi",
+      "release-type": "simple",
       "component": "core-lib",
-      "changelog-path": "CHANGELOG.md"
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": [
+        {
+          "type": "xml",
+          "path": "CoreLib.csproj",
+          "xpath": "//PropertyGroup/Version"
+        }
+      ]
     },
     "packages/data-processor": {
       "release-type": "python",
