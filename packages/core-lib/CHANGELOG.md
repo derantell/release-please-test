@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/derantell/release-please-test/compare/core-lib-v0.1.1...core-lib-v0.1.2) (2026-02-10)
+
+
+### Features
+
+* **core-lib:** add Multiply method to Calculator ([0e8b0f3](https://github.com/derantell/release-please-test/commit/0e8b0f3128e41be2c7d885edf0108f184668940e))
+
 ## [0.1.1](https://github.com/derantell/release-please-test/compare/core-lib-v0.1.0...core-lib-v0.1.1) (2026-02-10)
 
 
