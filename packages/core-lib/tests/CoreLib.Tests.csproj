@@ -3,13 +3,14 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>0.1.1</Version>
-    <PackageId>Monorepo.CoreLib</PackageId>
-    <Description>Shared core library</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="tests/**" />
+    <PackageReference Include="TUnit" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib.csproj" />
   </ItemGroup>
 
 </Project>

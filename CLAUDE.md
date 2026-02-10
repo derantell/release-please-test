@@ -59,3 +59,5 @@ Each release type knows which files contain version numbers:
 
 - Run Python library: `cd packages/data-processor && python3 -c "from src.data_processor.pipeline import Record, transform; print(transform([Record(1, 'hello')]))"`
 - Run Node API: `cd packages/api-server && npm install && npm start`
+- Build core-lib: `dotnet build packages/core-lib/CoreLib.csproj`
+- Test core-lib: `dotnet test packages/core-lib/tests/CoreLib.Tests.csproj` (uses TUnit framework, requires `global.json` with `Microsoft.Testing.Platform` runner for .NET 10+)
