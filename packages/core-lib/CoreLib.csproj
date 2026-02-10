@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
     <Version>0.1.0</Version>
     <PackageId>Monorepo.CoreLib</PackageId>
     <Description>Shared core library</Description>
