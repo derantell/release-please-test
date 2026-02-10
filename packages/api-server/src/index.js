@@ -9,8 +9,8 @@ app.get("/health", (req, res) => {
 
 app.get("/api/items", (req, res) => {
   res.json([
-    { id: 1, name: "Item A" },
-    { id: 2, name: "Item B" },
+    { index: 1, name: "Item A" },
+    { index: 2, name: "Item B" },
   ]);
 });
 
