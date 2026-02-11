@@ -3,8 +3,13 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use((req, res, next) => {
+  console.log(`${new Date().toISOString()} ${req.method} ${req.url}`);
+  next();
+});
+
 app.get("/health", (req, res) => {
-  res.json({ status: "ok", version: "0.1.0" });
+  res.json({ status: "ok", version: "0.2.0" });
 });
 
 app.get("/api/items", (req, res) => {
