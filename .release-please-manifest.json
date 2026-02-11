@@ -1,5 +1,5 @@
 {
-  "packages/api-server": "0.2.0",
+  "packages/api-server": "0.2.1",
   "packages/web-client": "0.1.1",
   "packages/core-lib": "0.1.2",
   "packages/data-processor": "0.1.1"

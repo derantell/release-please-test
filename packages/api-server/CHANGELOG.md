@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.1](https://github.com/derantell/release-please-test/compare/api-server-v0.2.0...api-server-v0.2.1) (2026-02-11)
+
+
+### Features
+
+* add logging across all services ([#5](https://github.com/derantell/release-please-test/issues/5)) ([66c4d0b](https://github.com/derantell/release-please-test/commit/66c4d0bee1386b0c1c1612ae869bcb7a092d0a91))
+* **api-server:** add request logging middleware ([66c4d0b](https://github.com/derantell/release-please-test/commit/66c4d0bee1386b0c1c1612ae869bcb7a092d0a91))
+* **data-processor:** add logging to transform and filter operations ([66c4d0b](https://github.com/derantell/release-please-test/commit/66c4d0bee1386b0c1c1612ae869bcb7a092d0a91))
+* **web-client:** add console logging for render lifecycle ([66c4d0b](https://github.com/derantell/release-please-test/commit/66c4d0bee1386b0c1c1612ae869bcb7a092d0a91))
+
 ## [0.2.0](https://github.com/derantell/release-please-test/compare/api-server-v0.1.0...api-server-v0.2.0) (2026-02-10)
 
 
