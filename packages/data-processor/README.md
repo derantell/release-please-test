@@ -59,5 +59,9 @@ output = transform(filtered)
 Run the unit tests to verify the pipeline functionality:
 
 ```bash
-python3 tests/test_pipeline.py
+# From the data-processor directory
+python3 -m unittest tests.test_pipeline
+
+# Or run all tests
+python3 -m unittest discover -s tests
 ```
