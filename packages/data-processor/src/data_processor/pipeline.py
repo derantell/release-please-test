@@ -6,13 +6,13 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class Record:
-    id: int
+    index: int
     value: str
 
 
 def transform(records: list[Record]) -> list[dict]:
     logger.info("Transforming %d records", len(records))
-    return [{"id": r.id, "value": r.value.upper()} for r in records]
+    return [{"index": r.index, "value": r.value.upper()} for r in records]
 
 
 def filter_empty(records: list[Record]) -> list[Record]:
